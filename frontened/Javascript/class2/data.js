@@ -27,18 +27,26 @@
 // console.log(div);
 
 //BigInt
-let huge=55555555555555555555555555555555555551415152;
-console.log(typeof huge);
+// let huge=55555555555555555555555555555555555551415152;
+// console.log(typeof huge);
 
-//Symbol
-let sym1=Symbol("sym1");
-let sym2=Symbol("sym1");
-console.log(sym1===sym2);//false
+// //Symbol
+// let sym1=Symbol("sym1");
+// let sym2=Symbol("sym1");
+// console.log(sym1===sym2);//false
 
-//NAN
-let num3=0
-let num4=0
-console.log(num3/num4)
+// //NAN
+// let num3=0
+// let num4=0
+// console.log(num3/num4)
 
-let num5=0
-let 
+
+
+//task
+let name="soumya"
+let age=22
+let city="bbsr"
+let college="USBM"
+let roll_no=127
+let batch="MCA"
+console.log(`my name is ${name},my age is ${age},my city is ${city},my college is ${college},my rollno is ${roll_no},my batch is ${batch}`);
