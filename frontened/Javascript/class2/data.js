@@ -43,10 +43,20 @@
 
 
 //task
-let name="soumya"
-let age=22
-let city="bbsr"
-let college="USBM"
-let roll_no=127
-let batch="MCA"
-console.log(`my name is ${name},my age is ${age},my city is ${city},my college is ${college},my rollno is ${roll_no},my batch is ${batch}`);
+// let name="soumya"
+// let age=22
+// let city="bhubaneswar"
+// let college="USBM"
+// let roll_no=127
+// let batch="MCA"
+// console.log(`my name is ${name},my age is ${age},my city is ${city},my college is ${college},my rollno is ${roll_no},my batch is ${batch}`);
+
+
+// //To check 
+// console.log(city.length)
+
+// //Coercion
+// let num=100;
+
+
+
