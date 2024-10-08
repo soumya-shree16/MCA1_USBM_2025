@@ -22,11 +22,12 @@
 
 
 
-let totalBill=850
-discount_start=1000
-if(totalBill>discount_start){
-    console.log("discount");
+let per="ram"
+let age=25
+
+if(per=="ram" && age>22){
+    console.log("he is male and able to marry");
 }
 else{
-    console.log("not discount");
+    console.log("a kid");
 }
