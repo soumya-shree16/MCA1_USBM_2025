@@ -22,12 +22,51 @@
 
 
 
-let per="ram"
-let age=25
+// let per="ram"
+// let age=25
 
-if(per=="ram" && age>22){
-    console.log("he is male and able to marry");
+// if(per=="ram" && age>22){
+//     console.log("he is male and able to marry");
+// }
+// else{
+//     console.log("a kid");
+// }
+
+//task-4
+let letter="u"
+if(letter=="a" || letter=="e" || letter=="i" || letter=="o" || letter=="u"){
+  console.log("this is a vowel");
 }
 else{
-    console.log("a kid");
+    console.log("not a vowel");
+}
+
+//switch
+
+let day="4"
+switch(day){
+
+    case "0":
+        console.log("sunday");
+        break;
+        case "1":
+         console.log("monday");
+         break;  
+         case "2":
+        console.log("tuesady");
+        break;
+        case "3":
+        console.log("wednesday");
+        break;  
+        case "4":
+        console.log("thursday");
+        break;
+        case "5":
+        console.log("friday");
+        break;
+        case "6":
+        console.log("saturday");
+        break;
+        default:
+            console.log("not valid day");
 }
