@@ -43,30 +43,54 @@ else{
 
 //switch
 
-let day="4"
-switch(day){
+
+let month="4"
+switch(month){
 
     case "0":
-        console.log("sunday");
+        console.log("january");
         break;
         case "1":
-         console.log("monday");
+         console.log("february");
          break;  
          case "2":
-        console.log("tuesady");
+        console.log("march");
         break;
         case "3":
-        console.log("wednesday");
+        console.log("april");
         break;  
         case "4":
-        console.log("thursday");
+        console.log("may");
         break;
         case "5":
-        console.log("friday");
+        console.log("june");
         break;
         case "6":
-        console.log("saturday");
+        console.log("july");
+        break;
+        case "7":
+        console.log("august");
+        break;
+        case "8":
+        console.log("september");
+        break;
+        case "9":
+        console.log("october");
+        break;
+        case "10":
+        console.log("november");
+        break;
+        case "11":
+        console.log("december");
         break;
         default:
-            console.log("not valid day");
+            console.log("not a valid month");
 }
+
+const x=5;
+function foo(){
+    let x=10;
+console.log(x);
+}
+foo();
+console.log(x);
